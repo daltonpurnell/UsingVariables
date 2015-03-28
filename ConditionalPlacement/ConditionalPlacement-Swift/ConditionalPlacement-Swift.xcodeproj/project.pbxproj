@@ -7,43 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71E54D1E199D3CDC009FF939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D1D199D3CDC009FF939 /* main.m */; };
-		71E54D21199D3CDC009FF939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D20199D3CDC009FF939 /* AppDelegate.m */; };
-		71E54D23199D3CDC009FF939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E54D22199D3CDC009FF939 /* Images.xcassets */; };
-		71E54D2F199D3CDC009FF939 /* UsingVariables_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */; };
+		71E54D47199D3FEE009FF939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D46199D3FEE009FF939 /* AppDelegate.swift */; };
+		71E54D49199D3FEE009FF939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E54D48199D3FEE009FF939 /* Images.xcassets */; };
+		71E54D55199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D54199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71E54D29199D3CDC009FF939 /* PBXContainerItemProxy */ = {
+		71E54D4F199D3FEE009FF939 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71E54D10199D3CDC009FF939 /* Project object */;
+			containerPortal = 71E54D39199D3FEE009FF939 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 71E54D17199D3CDC009FF939;
-			remoteInfo = "UsingVariables-Objc";
+			remoteGlobalIDString = 71E54D40199D3FEE009FF939;
+			remoteInfo = "ConditionalPlacement-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UsingVariables-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E54D1C199D3CDC009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E54D1D199D3CDC009FF939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71E54D1F199D3CDC009FF939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71E54D20199D3CDC009FF939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71E54D22199D3CDC009FF939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UsingVariables-ObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E54D2D199D3CDC009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsingVariables_ObjcTests.m; sourceTree = "<group>"; };
+		71E54D41199D3FEE009FF939 /* ConditionalPlacement-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConditionalPlacement-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E54D45199D3FEE009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E54D46199D3FEE009FF939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E54D48199D3FEE009FF939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E54D4E199D3FEE009FF939 /* ConditionalPlacement-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConditionalPlacement-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E54D53199D3FEE009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E54D54199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalPlacement_SwiftTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71E54D15199D3CDC009FF939 /* Frameworks */ = {
+		71E54D3E199D3FEE009FF939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D25199D3CDC009FF939 /* Frameworks */ = {
+		71E54D4B199D3FEE009FF939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,57 +50,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71E54D0F199D3CDC009FF939 = {
+		71E54D38199D3FEE009FF939 = {
 			isa = PBXGroup;
 			children = (
-				71E54D1A199D3CDC009FF939 /* UsingVariables-Objc */,
-				71E54D2B199D3CDC009FF939 /* UsingVariables-ObjcTests */,
-				71E54D19199D3CDC009FF939 /* Products */,
+				71E54D43199D3FEE009FF939 /* ConditionalPlacement-Swift */,
+				71E54D51199D3FEE009FF939 /* ConditionalPlacement-SwiftTests */,
+				71E54D42199D3FEE009FF939 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		71E54D19199D3CDC009FF939 /* Products */ = {
+		71E54D42199D3FEE009FF939 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */,
-				71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */,
+				71E54D41199D3FEE009FF939 /* ConditionalPlacement-Swift.app */,
+				71E54D4E199D3FEE009FF939 /* ConditionalPlacement-SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71E54D1A199D3CDC009FF939 /* UsingVariables-Objc */ = {
+		71E54D43199D3FEE009FF939 /* ConditionalPlacement-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D1F199D3CDC009FF939 /* AppDelegate.h */,
-				71E54D20199D3CDC009FF939 /* AppDelegate.m */,
-				71E54D22199D3CDC009FF939 /* Images.xcassets */,
-				71E54D1B199D3CDC009FF939 /* Supporting Files */,
+				71E54D46199D3FEE009FF939 /* AppDelegate.swift */,
+				71E54D48199D3FEE009FF939 /* Images.xcassets */,
+				71E54D44199D3FEE009FF939 /* Supporting Files */,
 			);
-			path = "UsingVariables-Objc";
+			path = "ConditionalPlacement-Swift";
 			sourceTree = "<group>";
 		};
-		71E54D1B199D3CDC009FF939 /* Supporting Files */ = {
+		71E54D44199D3FEE009FF939 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D1C199D3CDC009FF939 /* Info.plist */,
-				71E54D1D199D3CDC009FF939 /* main.m */,
+				71E54D45199D3FEE009FF939 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		71E54D2B199D3CDC009FF939 /* UsingVariables-ObjcTests */ = {
+		71E54D51199D3FEE009FF939 /* ConditionalPlacement-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */,
-				71E54D2C199D3CDC009FF939 /* Supporting Files */,
+				71E54D54199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift */,
+				71E54D52199D3FEE009FF939 /* Supporting Files */,
 			);
-			path = "UsingVariables-ObjcTests";
+			path = "ConditionalPlacement-SwiftTests";
 			sourceTree = "<group>";
 		};
-		71E54D2C199D3CDC009FF939 /* Supporting Files */ = {
+		71E54D52199D3FEE009FF939 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D2D199D3CDC009FF939 /* Info.plist */,
+				71E54D53199D3FEE009FF939 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,87 +106,87 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71E54D17199D3CDC009FF939 /* UsingVariables-Objc */ = {
+		71E54D40199D3FEE009FF939 /* ConditionalPlacement-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71E54D32199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-Objc" */;
+			buildConfigurationList = 71E54D58199D3FEE009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-Swift" */;
 			buildPhases = (
-				71E54D14199D3CDC009FF939 /* Sources */,
-				71E54D15199D3CDC009FF939 /* Frameworks */,
-				71E54D16199D3CDC009FF939 /* Resources */,
+				71E54D3D199D3FEE009FF939 /* Sources */,
+				71E54D3E199D3FEE009FF939 /* Frameworks */,
+				71E54D3F199D3FEE009FF939 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UsingVariables-Objc";
-			productName = "UsingVariables-Objc";
-			productReference = 71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */;
+			name = "ConditionalPlacement-Swift";
+			productName = "ConditionalPlacement-Swift";
+			productReference = 71E54D41199D3FEE009FF939 /* ConditionalPlacement-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71E54D27199D3CDC009FF939 /* UsingVariables-ObjcTests */ = {
+		71E54D4D199D3FEE009FF939 /* ConditionalPlacement-SwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71E54D35199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-ObjcTests" */;
+			buildConfigurationList = 71E54D5B199D3FEE009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-SwiftTests" */;
 			buildPhases = (
-				71E54D24199D3CDC009FF939 /* Sources */,
-				71E54D25199D3CDC009FF939 /* Frameworks */,
-				71E54D26199D3CDC009FF939 /* Resources */,
+				71E54D4A199D3FEE009FF939 /* Sources */,
+				71E54D4B199D3FEE009FF939 /* Frameworks */,
+				71E54D4C199D3FEE009FF939 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71E54D2A199D3CDC009FF939 /* PBXTargetDependency */,
+				71E54D50199D3FEE009FF939 /* PBXTargetDependency */,
 			);
-			name = "UsingVariables-ObjcTests";
-			productName = "UsingVariables-ObjcTests";
-			productReference = 71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */;
+			name = "ConditionalPlacement-SwiftTests";
+			productName = "ConditionalPlacement-SwiftTests";
+			productReference = 71E54D4E199D3FEE009FF939 /* ConditionalPlacement-SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71E54D10199D3CDC009FF939 /* Project object */ = {
+		71E54D39199D3FEE009FF939 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = DevMountain;
 				TargetAttributes = {
-					71E54D17199D3CDC009FF939 = {
+					71E54D40199D3FEE009FF939 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					71E54D27199D3CDC009FF939 = {
+					71E54D4D199D3FEE009FF939 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 71E54D17199D3CDC009FF939;
+						TestTargetID = 71E54D40199D3FEE009FF939;
 					};
 				};
 			};
-			buildConfigurationList = 71E54D13199D3CDC009FF939 /* Build configuration list for PBXProject "UsingVariables-Objc" */;
+			buildConfigurationList = 71E54D3C199D3FEE009FF939 /* Build configuration list for PBXProject "ConditionalPlacement-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 71E54D0F199D3CDC009FF939;
-			productRefGroup = 71E54D19199D3CDC009FF939 /* Products */;
+			mainGroup = 71E54D38199D3FEE009FF939;
+			productRefGroup = 71E54D42199D3FEE009FF939 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71E54D17199D3CDC009FF939 /* UsingVariables-Objc */,
-				71E54D27199D3CDC009FF939 /* UsingVariables-ObjcTests */,
+				71E54D40199D3FEE009FF939 /* ConditionalPlacement-Swift */,
+				71E54D4D199D3FEE009FF939 /* ConditionalPlacement-SwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71E54D16199D3CDC009FF939 /* Resources */ = {
+		71E54D3F199D3FEE009FF939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D23199D3CDC009FF939 /* Images.xcassets in Resources */,
+				71E54D49199D3FEE009FF939 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D26199D3CDC009FF939 /* Resources */ = {
+		71E54D4C199D3FEE009FF939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,35 +196,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71E54D14199D3CDC009FF939 /* Sources */ = {
+		71E54D3D199D3FEE009FF939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D21199D3CDC009FF939 /* AppDelegate.m in Sources */,
-				71E54D1E199D3CDC009FF939 /* main.m in Sources */,
+				71E54D47199D3FEE009FF939 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D24199D3CDC009FF939 /* Sources */ = {
+		71E54D4A199D3FEE009FF939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D2F199D3CDC009FF939 /* UsingVariables_ObjcTests.m in Sources */,
+				71E54D55199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71E54D2A199D3CDC009FF939 /* PBXTargetDependency */ = {
+		71E54D50199D3FEE009FF939 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 71E54D17199D3CDC009FF939 /* UsingVariables-Objc */;
-			targetProxy = 71E54D29199D3CDC009FF939 /* PBXContainerItemProxy */;
+			target = 71E54D40199D3FEE009FF939 /* ConditionalPlacement-Swift */;
+			targetProxy = 71E54D4F199D3FEE009FF939 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		71E54D30199D3CDC009FF939 /* Debug */ = {
+		71E54D56199D3FEE009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,10 +261,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		71E54D31199D3CDC009FF939 /* Release */ = {
+		71E54D57199D3FEE009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,29 +300,29 @@
 			};
 			name = Release;
 		};
-		71E54D33199D3CDC009FF939 /* Debug */ = {
+		71E54D59199D3FEE009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "UsingVariables-Objc/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		71E54D34199D3CDC009FF939 /* Release */ = {
+		71E54D5A199D3FEE009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "UsingVariables-Objc/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		71E54D36199D3CDC009FF939 /* Debug */ = {
+		71E54D5C199D3FEE009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -339,14 +334,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UsingVariables-ObjcTests/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingVariables-Objc.app/UsingVariables-Objc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalPlacement-Swift.app/ConditionalPlacement-Swift";
 			};
 			name = Debug;
 		};
-		71E54D37199D3CDC009FF939 /* Release */ = {
+		71E54D5D199D3FEE009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -354,44 +349,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UsingVariables-ObjcTests/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingVariables-Objc.app/UsingVariables-Objc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalPlacement-Swift.app/ConditionalPlacement-Swift";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71E54D13199D3CDC009FF939 /* Build configuration list for PBXProject "UsingVariables-Objc" */ = {
+		71E54D3C199D3FEE009FF939 /* Build configuration list for PBXProject "ConditionalPlacement-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D30199D3CDC009FF939 /* Debug */,
-				71E54D31199D3CDC009FF939 /* Release */,
+				71E54D56199D3FEE009FF939 /* Debug */,
+				71E54D57199D3FEE009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71E54D32199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-Objc" */ = {
+		71E54D58199D3FEE009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D33199D3CDC009FF939 /* Debug */,
-				71E54D34199D3CDC009FF939 /* Release */,
+				71E54D59199D3FEE009FF939 /* Debug */,
+				71E54D5A199D3FEE009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		71E54D35199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-ObjcTests" */ = {
+		71E54D5B199D3FEE009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-SwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D36199D3CDC009FF939 /* Debug */,
-				71E54D37199D3CDC009FF939 /* Release */,
+				71E54D5C199D3FEE009FF939 /* Debug */,
+				71E54D5D199D3FEE009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 71E54D10199D3CDC009FF939 /* Project object */;
+	rootObject = 71E54D39199D3FEE009FF939 /* Project object */;
 }

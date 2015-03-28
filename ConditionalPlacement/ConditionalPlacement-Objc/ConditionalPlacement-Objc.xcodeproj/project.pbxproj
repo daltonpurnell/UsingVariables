@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71E54D1E199D3CDC009FF939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D1D199D3CDC009FF939 /* main.m */; };
-		71E54D21199D3CDC009FF939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D20199D3CDC009FF939 /* AppDelegate.m */; };
-		71E54D23199D3CDC009FF939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E54D22199D3CDC009FF939 /* Images.xcassets */; };
-		71E54D2F199D3CDC009FF939 /* UsingVariables_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */; };
+		71E54D6D199D4025009FF939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D6C199D4025009FF939 /* main.m */; };
+		71E54D70199D4025009FF939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D6F199D4025009FF939 /* AppDelegate.m */; };
+		71E54D72199D4025009FF939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E54D71199D4025009FF939 /* Images.xcassets */; };
+		71E54D7E199D4025009FF939 /* ConditionalPlacement_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D7D199D4025009FF939 /* ConditionalPlacement_ObjcTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71E54D29199D3CDC009FF939 /* PBXContainerItemProxy */ = {
+		71E54D78199D4025009FF939 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 71E54D10199D3CDC009FF939 /* Project object */;
+			containerPortal = 71E54D5F199D4025009FF939 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 71E54D17199D3CDC009FF939;
-			remoteInfo = "UsingVariables-Objc";
+			remoteGlobalIDString = 71E54D66199D4025009FF939;
+			remoteInfo = "ConditionalPlacement-Objc";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UsingVariables-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E54D1C199D3CDC009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E54D1D199D3CDC009FF939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71E54D1F199D3CDC009FF939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71E54D20199D3CDC009FF939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71E54D22199D3CDC009FF939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UsingVariables-ObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71E54D2D199D3CDC009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsingVariables_ObjcTests.m; sourceTree = "<group>"; };
+		71E54D67199D4025009FF939 /* ConditionalPlacement-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConditionalPlacement-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E54D6B199D4025009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E54D6C199D4025009FF939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E54D6E199D4025009FF939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71E54D6F199D4025009FF939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71E54D71199D4025009FF939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E54D77199D4025009FF939 /* ConditionalPlacement-ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConditionalPlacement-ObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E54D7C199D4025009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E54D7D199D4025009FF939 /* ConditionalPlacement_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionalPlacement_ObjcTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71E54D15199D3CDC009FF939 /* Frameworks */ = {
+		71E54D64199D4025009FF939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D25199D3CDC009FF939 /* Frameworks */ = {
+		71E54D74199D4025009FF939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,57 +53,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71E54D0F199D3CDC009FF939 = {
+		71E54D5E199D4025009FF939 = {
 			isa = PBXGroup;
 			children = (
-				71E54D1A199D3CDC009FF939 /* UsingVariables-Objc */,
-				71E54D2B199D3CDC009FF939 /* UsingVariables-ObjcTests */,
-				71E54D19199D3CDC009FF939 /* Products */,
+				71E54D69199D4025009FF939 /* ConditionalPlacement-Objc */,
+				71E54D7A199D4025009FF939 /* ConditionalPlacement-ObjcTests */,
+				71E54D68199D4025009FF939 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		71E54D19199D3CDC009FF939 /* Products */ = {
+		71E54D68199D4025009FF939 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */,
-				71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */,
+				71E54D67199D4025009FF939 /* ConditionalPlacement-Objc.app */,
+				71E54D77199D4025009FF939 /* ConditionalPlacement-ObjcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71E54D1A199D3CDC009FF939 /* UsingVariables-Objc */ = {
+		71E54D69199D4025009FF939 /* ConditionalPlacement-Objc */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D1F199D3CDC009FF939 /* AppDelegate.h */,
-				71E54D20199D3CDC009FF939 /* AppDelegate.m */,
-				71E54D22199D3CDC009FF939 /* Images.xcassets */,
-				71E54D1B199D3CDC009FF939 /* Supporting Files */,
+				71E54D6E199D4025009FF939 /* AppDelegate.h */,
+				71E54D6F199D4025009FF939 /* AppDelegate.m */,
+				71E54D71199D4025009FF939 /* Images.xcassets */,
+				71E54D6A199D4025009FF939 /* Supporting Files */,
 			);
-			path = "UsingVariables-Objc";
+			path = "ConditionalPlacement-Objc";
 			sourceTree = "<group>";
 		};
-		71E54D1B199D3CDC009FF939 /* Supporting Files */ = {
+		71E54D6A199D4025009FF939 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D1C199D3CDC009FF939 /* Info.plist */,
-				71E54D1D199D3CDC009FF939 /* main.m */,
+				71E54D6B199D4025009FF939 /* Info.plist */,
+				71E54D6C199D4025009FF939 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		71E54D2B199D3CDC009FF939 /* UsingVariables-ObjcTests */ = {
+		71E54D7A199D4025009FF939 /* ConditionalPlacement-ObjcTests */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D2E199D3CDC009FF939 /* UsingVariables_ObjcTests.m */,
-				71E54D2C199D3CDC009FF939 /* Supporting Files */,
+				71E54D7D199D4025009FF939 /* ConditionalPlacement_ObjcTests.m */,
+				71E54D7B199D4025009FF939 /* Supporting Files */,
 			);
-			path = "UsingVariables-ObjcTests";
+			path = "ConditionalPlacement-ObjcTests";
 			sourceTree = "<group>";
 		};
-		71E54D2C199D3CDC009FF939 /* Supporting Files */ = {
+		71E54D7B199D4025009FF939 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71E54D2D199D3CDC009FF939 /* Info.plist */,
+				71E54D7C199D4025009FF939 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,87 +111,87 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71E54D17199D3CDC009FF939 /* UsingVariables-Objc */ = {
+		71E54D66199D4025009FF939 /* ConditionalPlacement-Objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71E54D32199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-Objc" */;
+			buildConfigurationList = 71E54D81199D4025009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-Objc" */;
 			buildPhases = (
-				71E54D14199D3CDC009FF939 /* Sources */,
-				71E54D15199D3CDC009FF939 /* Frameworks */,
-				71E54D16199D3CDC009FF939 /* Resources */,
+				71E54D63199D4025009FF939 /* Sources */,
+				71E54D64199D4025009FF939 /* Frameworks */,
+				71E54D65199D4025009FF939 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UsingVariables-Objc";
-			productName = "UsingVariables-Objc";
-			productReference = 71E54D18199D3CDC009FF939 /* UsingVariables-Objc.app */;
+			name = "ConditionalPlacement-Objc";
+			productName = "ConditionalPlacement-Objc";
+			productReference = 71E54D67199D4025009FF939 /* ConditionalPlacement-Objc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71E54D27199D3CDC009FF939 /* UsingVariables-ObjcTests */ = {
+		71E54D76199D4025009FF939 /* ConditionalPlacement-ObjcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71E54D35199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-ObjcTests" */;
+			buildConfigurationList = 71E54D84199D4025009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-ObjcTests" */;
 			buildPhases = (
-				71E54D24199D3CDC009FF939 /* Sources */,
-				71E54D25199D3CDC009FF939 /* Frameworks */,
-				71E54D26199D3CDC009FF939 /* Resources */,
+				71E54D73199D4025009FF939 /* Sources */,
+				71E54D74199D4025009FF939 /* Frameworks */,
+				71E54D75199D4025009FF939 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71E54D2A199D3CDC009FF939 /* PBXTargetDependency */,
+				71E54D79199D4025009FF939 /* PBXTargetDependency */,
 			);
-			name = "UsingVariables-ObjcTests";
-			productName = "UsingVariables-ObjcTests";
-			productReference = 71E54D28199D3CDC009FF939 /* UsingVariables-ObjcTests.xctest */;
+			name = "ConditionalPlacement-ObjcTests";
+			productName = "ConditionalPlacement-ObjcTests";
+			productReference = 71E54D77199D4025009FF939 /* ConditionalPlacement-ObjcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71E54D10199D3CDC009FF939 /* Project object */ = {
+		71E54D5F199D4025009FF939 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = DevMountain;
 				TargetAttributes = {
-					71E54D17199D3CDC009FF939 = {
+					71E54D66199D4025009FF939 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					71E54D27199D3CDC009FF939 = {
+					71E54D76199D4025009FF939 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 71E54D17199D3CDC009FF939;
+						TestTargetID = 71E54D66199D4025009FF939;
 					};
 				};
 			};
-			buildConfigurationList = 71E54D13199D3CDC009FF939 /* Build configuration list for PBXProject "UsingVariables-Objc" */;
+			buildConfigurationList = 71E54D62199D4025009FF939 /* Build configuration list for PBXProject "ConditionalPlacement-Objc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 71E54D0F199D3CDC009FF939;
-			productRefGroup = 71E54D19199D3CDC009FF939 /* Products */;
+			mainGroup = 71E54D5E199D4025009FF939;
+			productRefGroup = 71E54D68199D4025009FF939 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71E54D17199D3CDC009FF939 /* UsingVariables-Objc */,
-				71E54D27199D3CDC009FF939 /* UsingVariables-ObjcTests */,
+				71E54D66199D4025009FF939 /* ConditionalPlacement-Objc */,
+				71E54D76199D4025009FF939 /* ConditionalPlacement-ObjcTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71E54D16199D3CDC009FF939 /* Resources */ = {
+		71E54D65199D4025009FF939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D23199D3CDC009FF939 /* Images.xcassets in Resources */,
+				71E54D72199D4025009FF939 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D26199D3CDC009FF939 /* Resources */ = {
+		71E54D75199D4025009FF939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,35 +201,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71E54D14199D3CDC009FF939 /* Sources */ = {
+		71E54D63199D4025009FF939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D21199D3CDC009FF939 /* AppDelegate.m in Sources */,
-				71E54D1E199D3CDC009FF939 /* main.m in Sources */,
+				71E54D70199D4025009FF939 /* AppDelegate.m in Sources */,
+				71E54D6D199D4025009FF939 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E54D24199D3CDC009FF939 /* Sources */ = {
+		71E54D73199D4025009FF939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E54D2F199D3CDC009FF939 /* UsingVariables_ObjcTests.m in Sources */,
+				71E54D7E199D4025009FF939 /* ConditionalPlacement_ObjcTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71E54D2A199D3CDC009FF939 /* PBXTargetDependency */ = {
+		71E54D79199D4025009FF939 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 71E54D17199D3CDC009FF939 /* UsingVariables-Objc */;
-			targetProxy = 71E54D29199D3CDC009FF939 /* PBXContainerItemProxy */;
+			target = 71E54D66199D4025009FF939 /* ConditionalPlacement-Objc */;
+			targetProxy = 71E54D78199D4025009FF939 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		71E54D30199D3CDC009FF939 /* Debug */ = {
+		71E54D7F199D4025009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		71E54D31199D3CDC009FF939 /* Release */ = {
+		71E54D80199D4025009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,29 +305,29 @@
 			};
 			name = Release;
 		};
-		71E54D33199D3CDC009FF939 /* Debug */ = {
+		71E54D82199D4025009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "UsingVariables-Objc/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		71E54D34199D3CDC009FF939 /* Release */ = {
+		71E54D83199D4025009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "UsingVariables-Objc/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		71E54D36199D3CDC009FF939 /* Debug */ = {
+		71E54D85199D4025009FF939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -339,14 +339,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UsingVariables-ObjcTests/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-ObjcTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingVariables-Objc.app/UsingVariables-Objc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalPlacement-Objc.app/ConditionalPlacement-Objc";
 			};
 			name = Debug;
 		};
-		71E54D37199D3CDC009FF939 /* Release */ = {
+		71E54D86199D4025009FF939 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -354,44 +354,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UsingVariables-ObjcTests/Info.plist";
+				INFOPLIST_FILE = "ConditionalPlacement-ObjcTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingVariables-Objc.app/UsingVariables-Objc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalPlacement-Objc.app/ConditionalPlacement-Objc";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71E54D13199D3CDC009FF939 /* Build configuration list for PBXProject "UsingVariables-Objc" */ = {
+		71E54D62199D4025009FF939 /* Build configuration list for PBXProject "ConditionalPlacement-Objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D30199D3CDC009FF939 /* Debug */,
-				71E54D31199D3CDC009FF939 /* Release */,
+				71E54D7F199D4025009FF939 /* Debug */,
+				71E54D80199D4025009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71E54D32199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-Objc" */ = {
+		71E54D81199D4025009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-Objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D33199D3CDC009FF939 /* Debug */,
-				71E54D34199D3CDC009FF939 /* Release */,
+				71E54D82199D4025009FF939 /* Debug */,
+				71E54D83199D4025009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		71E54D35199D3CDC009FF939 /* Build configuration list for PBXNativeTarget "UsingVariables-ObjcTests" */ = {
+		71E54D84199D4025009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-ObjcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71E54D36199D3CDC009FF939 /* Debug */,
-				71E54D37199D3CDC009FF939 /* Release */,
+				71E54D85199D4025009FF939 /* Debug */,
+				71E54D86199D4025009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 71E54D10199D3CDC009FF939 /* Project object */;
+	rootObject = 71E54D5F199D4025009FF939 /* Project object */;
 }

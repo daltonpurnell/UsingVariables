@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Z2-nq-2dk">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="sW5-6Q-P2N">
+            <objects>
+                <viewController id="0Z2-nq-2dk" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N3W-RP-U3A"/>
+                        <viewControllerLayoutGuide type="bottom" id="4bo-1R-Jfd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cZQ-PK-z6U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kCu-qt-dHv">
+                                <rect key="frame" x="287" y="49" width="231" height="247"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KfU-io-Q7n">
+                                <rect key="frame" x="29" y="317" width="231" height="247"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pK1-C2-WdS">
+                                <rect key="frame" x="287" y="317" width="231" height="247"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-xI-CQS">
+                                <rect key="frame" x="29" y="49" width="231" height="247"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueView" destination="KfU-io-Q7n" id="W4J-dY-opJ"/>
+                        <outlet property="greenView" destination="kCu-qt-dHv" id="K6s-fz-nnk"/>
+                        <outlet property="redView" destination="lyS-xI-CQS" id="2yI-Zp-b64"/>
+                        <outlet property="yellowView" destination="pK1-C2-WdS" id="QTU-2X-jGk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JOr-yS-ZRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="342"/>
+        </scene>
+    </scenes>
+</document>
